@@ -11,5 +11,3 @@ data:
   AWS_REGION: postgres
   JWT_SECRET: testing
   URL: http://localhost:8100
-
-
