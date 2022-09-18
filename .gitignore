@@ -41,3 +41,5 @@ venv/
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 *set-env
+set_env.sh
+*deloyment/env-configmap.yaml
