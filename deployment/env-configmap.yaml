@@ -4,10 +4,10 @@ metadata:
   name: env-config
 data:
   POSTGRES_USERNAME: postgres
-  POSTGRES_PASSWORD: Tebogo13579637290
-  POSTGRES_HOST: db-sello-tebogo-own-account.ci7ak904s7kp.us-east-1.rds.amazonaws.com
+  POSTGRES_PASSWORD: postgres
+  POSTGRES_HOST: postgres.ci7ak904s7kp.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
-  AWS_BUCKET: bucket-sello-tebogo-own-account
+  AWS_BUCKET: bucket
   AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: testing
