@@ -23,3 +23,4 @@ kubectl describe hpa
 ```bash
 kubectl logs {pod_name}
 ```
+https://github.com/TebogoYungMercykay/Project-3----ALX-T--Cloud-Developer-Nanodegree-Program/blob/main/screenshots/Screenshot%20(426).png
