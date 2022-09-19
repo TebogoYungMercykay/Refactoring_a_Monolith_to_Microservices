@@ -23,4 +23,4 @@ kubectl describe hpa
 ```bash
 kubectl logs {pod_name}
 ```
-<img width="1307" alt="Screenshot(426)" src="https://user-images.githubusercontent.com/80678596/169410840-5818924e-3174-47d1-9ace-903ae0a411d4.png](https://github.com/TebogoYungMercykay/Project-3----ALX-T--Cloud-Developer-Nanodegree-Program/blob/main/screenshots/Screenshot%20(426).png)">
+<img width="849" alt="Screenshot(426)" src="https://github.com/TebogoYungMercykay/Project-3----ALX-T--Cloud-Developer-Nanodegree-Program/blob/main/screenshots/Screenshot%20(426).png">
