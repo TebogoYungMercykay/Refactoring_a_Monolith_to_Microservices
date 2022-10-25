@@ -13,7 +13,7 @@ jobs:
       - run:
           name: Build docker container for each microservices
           command: |
-            echo "--------- Installing dependencies-----------"
+            echo "--------- Installing dependencies -----------"
             sudo curl -LO https://nodejs.org/dist/v18.0.0/node-v18.0.0-linux-x64.tar.xz
             sudo tar -xvf node-v18.0.0-linux-x64.tar.xz
             sudo cp -r node-v18.0.0-linux-x64/{bin,include,lib,share} /usr/
@@ -34,13 +34,13 @@ jobs:
             docker build -t udagram-reverseproxy ./udagram-reverseproxy
             docker tag udagram-reverseproxy tebogoyungmercykay/udagram-reverseproxy:v0
 
-            echo "-------- All images succesfully built----------"
+            echo "-------- All images succesfully built ----------"
 
-            echo " ------- login in to hub--------"
+            echo "-------- login in to hub --------"
 
             docker login -u tebogoyungmercykay -p $DOCKERPASS
 
-            echo "-------------- Pushing images to dockerhub-------"
+            echo "-------------- Pushing images to dockerhub -------"
 
             docker push tebogoyungmercykay/udagram-api-feed:v0
             docker push tebogoyungmercykay/udagram-api-user:v0
