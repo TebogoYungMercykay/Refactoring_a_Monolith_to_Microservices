@@ -1,6 +1,6 @@
 # ALX-Cloud_Development__Project3
 Refactor Monolith to Microservices and Deploy: In this project, you will take an existing application named Udagram and refactor it into a microservice architecture with lean services and deploy it using Kubernetes.
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/NewthingAde/Cloud_developer_Project_3_Demo/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/NewthingAde/Cloud_developer_Project_3_Demo/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/NewthingAde/Cloud_developer_Project_3_Demo/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/TebogoYungMercykay/Cloud_developer_Project_3_Demo/tree/main)
 
 # Microservices 
 
